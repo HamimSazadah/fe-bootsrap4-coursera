@@ -1,5 +1,7 @@
 dependencies:
   bootstrap: 4.0.0_jquery@3.3.1+popper.js@1.12.9
+  bootstrap-social: 5.1.1
+  font-awesome: 4.7.0
   jquery: 3.3.1
   popper.js: 1.12.9
 devDependencies:
@@ -110,6 +112,19 @@ packages:
     dev: true
     resolution:
       integrity: sha512-gaqbzQPqOoamawKg0LGVd7SzLgXS+JH61oWprSLH+P+abTczqJbhTR8CmJ2u9/bUYNmHTGJx/UEmn6doAvvuig==
+  /bootstrap-social/5.1.1:
+    dependencies:
+      bootstrap: 3.4.1
+      font-awesome: 4.7.0
+    dev: false
+    resolution:
+      integrity: sha1-dTDGeK31bPj60/qCwp1NPl0CdQE=
+  /bootstrap/3.4.1:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-yN5oZVmRCwe5aKwzRj6736nSmKDX7pLYwsXiCj/EYmo16hODaBiT4En5btW/jhBF/seV+XMx3aYwukYC3A49DA==
   /bootstrap/4.0.0_jquery@3.3.1+popper.js@1.12.9:
     dependencies:
       jquery: 3.3.1
@@ -524,6 +539,12 @@ packages:
         optional: true
     resolution:
       integrity: sha512-DUgl6+HDzB0iEptNQEXLx/KhTmDb8tZUHSeLqpnjpknR70H0nC2t9N73BK6fN4hOvJ84pKlIQVQ4k5FFlBedKA==
+  /font-awesome/4.7.0:
+    dev: false
+    engines:
+      node: '>=0.10.3'
+    resolution:
+      integrity: sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM=
   /fresh/0.5.2:
     dev: true
     engines:
@@ -1296,6 +1317,8 @@ packages:
       integrity: sha1-AI4G2AlDIMNy28L47XagymyKxBk=
 specifiers:
   bootstrap: 4.0.0
+  bootstrap-social: 5.1.1
+  font-awesome: 4.7.0
   jquery: 3.3.1
   lite-server: ^2.3.0
   popper.js: 1.12.9
